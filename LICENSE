@@ -33,7 +33,7 @@ Thirdpary licenses:
 JSMock 1.2.2
   see: js-test-kit/test/javascripts/jsmock.js
 
-JsUnit 2.2alpha
+JsUnit REV 1335 (SVN Trunk)
   see: js-test-kit/test/javascripts/jsunit/readme.txt
 
 Functional 1.0.2

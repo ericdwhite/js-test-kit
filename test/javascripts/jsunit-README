@@ -1,0 +1,7 @@
+This is a version of the JsUnit mainline with the 'java' directory removed.
+
+https://jsunit.svn.sourceforge.net/svnroot/jsunit/trunk/jsunit REV 1335
+
+It also has the patch 'JsUnit-core-FireBug.patch' applied to it.
+
+
