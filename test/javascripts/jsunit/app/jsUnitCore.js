@@ -889,7 +889,8 @@ JsUnit.Util.getStackTrace = function() {
         // fake an exception so we can get Mozilla's error stack
         try
         {
-            foo.bar;
+            var stackTrace = new TypeError("Assert stack trace");
+            throw stackTrace;
         }
         catch(exception)
         {

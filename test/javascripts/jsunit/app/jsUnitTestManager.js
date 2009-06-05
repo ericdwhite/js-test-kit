@@ -436,7 +436,9 @@ JsUnitTestManager.prototype.abort = function () {
 JsUnitTestManager.prototype.getTimeout = function () {
     var result = JsUnitTestManager.TESTPAGE_WAIT_SEC;
     try {
+      if( this.timeout ) {
         result = eval(this.timeout.value);
+      }
     }
     catch (e) {
     }
