@@ -1,0 +1,23 @@
+This is a sample project to quickly get started
+testing with JsUnit, JSMock, and Functional Javascript
+based on the InfoQ article:
+  * InfoQ: JavaScript Test Driven Development with JsUnit and JSMock -- http://www.infoq.com/articles/javascript-tdd
+
+Bundled in this Git repo are: JsUnit (modified), JSMock, and Functional Javascript.
+* See LICENSE for the detailed versions.
+
+
+
+Modifications to the JsUnit:
+1. Removal of the js-test-kit/test/javascripts/jsunit/java directory
+
+This was done to limit the size of the js-test-kit as the java directory is not strictly needed.
+
+2. Patched jsunit/app/jsUnitCore.js, and jsunit/app/jsUnitTestManager.js
+
+These are patched to avoid issues in Firefox when the FireBug Add-on is installed.
+See: js-test-kit/test/javascripts/JsUnit-FireBug.patch
+
+
+For a complete explanation of this kit see this blog entry:
+* http://blog.ericwhite.ca/articles/2009/06/testing-modular-javascript-with-jsunit-and-thin_rack/
